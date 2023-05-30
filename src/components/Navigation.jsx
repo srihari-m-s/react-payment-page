@@ -6,7 +6,7 @@ function Navigation(){
         <>
             <nav className="h-[10dvh] p-6 bg-white flex flex-row justify-between items-center text-black cursor-pointer" id="navbar">
                 <div className='p-2 flex flex-row basis-2/5 justify-around align-center'>
-                    <img src="/assets/EDYODA.svg" alt="Company Logo" className="ml-10"/>
+                    <img src="./assets/EDYODA.svg" alt="Company Logo" className="ml-10"/>
                     
                     <select name="courses" id="courses" className="bg-transparent border-none text-base cursor-pointer focus:outline-none">
                         <option value="courses">Courses</option>
