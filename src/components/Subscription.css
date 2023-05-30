@@ -1,0 +1,8 @@
+.expired{
+    background-color: blue;
+    position: relative;
+}
+
+.recommended{
+    background-color: #97e5ad;
+}
