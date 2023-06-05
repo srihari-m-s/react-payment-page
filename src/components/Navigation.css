@@ -1,0 +1,30 @@
+
+.link:hover, .dropdown.active > .link{
+    background-color: rgba(37, 99, 235, 0.8);
+    color: white;
+}
+
+
+.dropdown-menu{
+    transform: translateY(-5px);
+    transition: opacity 150ms ease-in-out, transform 150ms ease-in-out;
+    pointer-events: none;
+}
+
+.dropdown.active > .link + .dropdown-menu{
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.ham-navbar{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .ham-navbar.active{
+        display: flex;
+        flex-direction: column;
+        transition: 150ms ease-in-out;
+    }
+}

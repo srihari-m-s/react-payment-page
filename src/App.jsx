@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Navigation />
-      <div className="w-screen h-[90dvh] flex flex-row gap-x-8 justify-around items-center">
+      <div className="w-screen h-max lg:h-[90dvh] flex flex-col lg:flex-row md:gap-x-8 justify-around items-center">
         <About />
         <Form />
       </div>

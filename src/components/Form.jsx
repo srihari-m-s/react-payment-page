@@ -15,7 +15,7 @@ function Form(){
     const numberFormat = new Intl.NumberFormat('en-US');
 
     return (
-        <div className='border-2 w-[22.5%] h-4/5 p-4 m-20 flex justify-between text-sm text-black bg-white rounded-3xl'>
+        <div className='w-[80%] md:w-[60%] lg:w-[22.5%] h-max lg:h-max p-4 my-32 flex justify-between text-sm text-black bg-white rounded-3xl form-cont'>
             <form className='flex flex-col items-center justify-center w-full gap-y-3 cursor-pointer' id='price-form'>
 
                 <div className='flex flex-row justify-around w-[80%] m-0 p-0'>
@@ -60,8 +60,8 @@ function Form(){
                 </div>
 
                 <div className='flex flex-row w-full justify-around items-center'>
-                    <button className="text-lg border-2 w-48 h-10 rounded-full border-red-600 text-red-600" id="cancel">CANCEL</button>
-                    <button type="submit" className="text-lg border-2 w-48 h-10 rounded-full bg-green-600 border-green-600 text-white" id="pay">PROCEED TO PAY</button>
+                    <button className="text-xs md:text-lg border-2 w-48 h-10 rounded-full border-red-600 text-red-600" id="cancel">CANCEL</button>
+                    <button type="submit" className="text-xs md:text-lg border-2 w-48 h-10 rounded-full bg-green-600 border-green-600 text-white" id="pay">PROCEED TO PAY</button>
                 </div>
 
                 <div className='flex flex-row justify-start w-full'>
